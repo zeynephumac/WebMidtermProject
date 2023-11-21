@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*evenly distributes items in a Flexbox container, maximizing space between each item.  */
+    padding: 20px;
+    background-color: #F1F0E8;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+    border: 1px solid #7E57C2;
+    border-radius: 5px;
+    background-color: #303F9F;
+}
+
+nav a {
+    text-decoration: none;
+    /* no line is drawn, and any existing decoration is removed. */
+    color: #ADC4CE;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 8px 16px;
+}
+
+.slogan {
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-color: #ADC4CE;
+    padding: 10px;
+}
+
+.currency-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #EEE0C9;
+    padding: 10px;
+}
+
+.currency {
+    margin: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    /* left to right */
+}
+
+.section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ADC4CE;
+    flex-direction: column;
+    background-color: #96B6C5;
+}
+
+.applications {
+    text-align: center;
+}
+
+.app {
+    width: auto;
+    border: 5px solid #303F9F;
+    border-radius: 5px;
+    border-style: inset;
+    /* displays a border that makes the element appear embedded */
+    padding: 10px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-color: #F1F0E8;
+    font-family: sans-serif;
+}
+
+.personal {
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F1F0E8;
+    padding: 1.5rem;
+    font-family: sans-serif;
+}
+.person-profile {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: solid;
+}
+
+.person-profile img {
+    width: 75px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.person-profile span {
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.iban {
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.personal h3 {
+    font-family: sans-serif;
+}
+
+.nearest select {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F1F0E8;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #303F9F;
+    margin: 20px;
+    font-size: 20px;
+    color: #ADC4CE;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about{
+    text-align: center;
+    background-color: #EEE0C9;
+    border: 5px solid #303F9F;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #303F9F;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F0E8;
+    gap: 12rem;  
+    padding: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* items are positioned in the center of the container */
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.products li {
+    border: 1px solid #ADC4CE;
+    border-radius: 5px;
+    margin: 7px 7px;
+    padding: 5px;
+    background-color: #303F9F;
+}
+
+.announcement {
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    margin: 7px 7px;
+    padding: 5px;
+}
+
+.announcement img {
+    width: 10px;
+    height: auto;
+}
+
+.communication {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    margin: auto;
+}
+
+.communication i {
+    margin: 7px;
+    width: auto;
+}
+
+.zeyco {
+    text-align: center;
+    background-color: #F1F0E8;
+}
